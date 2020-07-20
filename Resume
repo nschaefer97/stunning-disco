@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: DarkGrey;
+  border-radius: 50%;
+  color: Black;
+  text-align: center;
+  font-size: 28px;
+  padding: 12px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h1 {
+	color: black;
+	font-family:Lucida Sans Unicode;
+	font-size: 30px;
+	text-align: center;
+}
+p {
+	color: black;
+	font-family: Cambria;
+	font-size: 15px;
+	text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<body style= background-color:Lavender;>
+
+<h1><i>Nicole Schaefer</i></h1>
+<p>An enthusiatic novice software engineer specializing in HTML and C#. Eager to join a company that is growth oriented. Looking for opportunities to display skills and to grow in the field.</p>
+
+<button class="button" style="vertical-align:middle"><span>LinkedIn </span></button>
+
+
+
+</body>
+</html>
